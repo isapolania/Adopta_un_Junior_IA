@@ -20,7 +20,7 @@ Esto se logra haciendo un llamado a la API de un LLM. En este caso, se realizó 
   1. 🐍 Python
   2. 💻 Google Colab
   3. ☁️ Perplexity API
-  4. 📦 openAI
+  4. 📦 OpenAI
 
 ## 🤖 Eficiencia del Prompt
 Este prompt funciona porque es específico en el requerimiento, en el formato que necesita en la respuesta (JSON) y el modelo logró cumplir con lo que se quería. 
