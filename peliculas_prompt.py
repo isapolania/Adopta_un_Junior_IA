@@ -32,5 +32,9 @@ contenido = response.choices[0].message.content
 #Eliminar el contenido de referencias 
 contenido_limpio = limpiar_referencias(contenido)
 
+# Guardar en archivo .json
+with open("peliculas.json", "w", encoding="utf-8") as f:
+    json.dump(contenido_limpio, f, ensure_ascii=False, indent=4)
+
 # Mostrar resultado modificado
 print(contenido_limpio)
